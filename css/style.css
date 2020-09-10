@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../images/background/737bc677939169.5c96579cbb46e.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Noto Sans','Raleway', sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 1rem 0;
+}
+
+.logo-div {
+    padding-bottom: 4rem;
+}
+
+.weather-logo {
+    width: 250px;
+    padding-bottom: 1.5rem;    
+}
+
+#logo-without-text {    
+    width: 150px;
+    margin-bottom: 2rem ;
+}
+
+.text-p {
+    color: white;
+
+}
+#city-name {
+    font-size: 4rem;
+    margin-bottom: 1rem;    
+}
+
+#weather-date{
+    font-size: 2rem;
+    
+}
+
+.temperature {
+    color: white;
+    font-size: 6rem;
+}
+
+#degree-symbol {
+    font-size: 30%;
+    line-height: 2.5;
+    vertical-align: top;
+}
+
+#weather-description {
+    margin-bottom: 2rem;
+}
+
+.main-info-card {
+    display: flex;
+    flex-direction: row;
+    width: 60rem;
+    height: 40rem;
+    align-items: center;
+    background-color: rgba(0, 175, 234, 0.3);
+    border-radius: 20px;
+    padding: 4rem;
+}
+
+.main-card-info {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1.5rem;
+    border: 1px solid white;
+    border-radius: 20px;
+    width: 45rem;
+    align-items: center;
+}
+
+.side-card-info {
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+    height: 32.5rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* card for min max temp and hum*/
+.card-container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: rgba(5, 5, 5, 0.05);
+    width: 7rem;
+    height: 7rem;
+}
+
+
+
+.red {
+    color: red;
+}
+
+.red-background {
+    background-color: red;
+}
+
+.indigo {
+    color: #3e4095;
+}
+
+.indigo-background {
+    background-color: #3e4095;
+}
+
+
+.white_text {
+    color: white;
+}
+
+.light-blue {
+    color: #63aed1;
+}
+
+.light-blue-background {
+    background-color: #63aed1;
+}
+
+.card-title {
+    display: flex;
+    border-radius: 20px 20px 0 0;
+    height: 40%;
+    justify-content: center;
+}
+
+
+.card-body{
+    display: flex;
+    height: 70%;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+/* Search box styling  */
+.search {
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+.searchWord {
+    width: 100%;
+    border: 3px solid #00B4CC;
+    border-right: none;
+    padding: 5px;
+    height: 36px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+}
+
+.searchWord:focus{
+    color: black/*rgb(0, 175, 234)*/;
+}
+
+.searchButton {
+    width: 40px;
+    height: 36px;
+    border: 1px solid rgb(0, 175, 234);
+    background: rgb(0, 175, 234);
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+    width: 30%;
+}
