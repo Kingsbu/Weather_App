@@ -73,5 +73,8 @@ if ("serviceWorker" in navigator){
     })
 }
 
-
+navigator.serviceWorker.onmessage = event => {
+    const message = JSON.parse(event.data);
+    //TODO: detect the type of message and refresh the view
+  };
 
